@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: linear-gradient(to right, rgba(0, 0, 255, 0.123),rgba(0, 0, 255, 0.527)) ;
+}
+.container{
+    max-width:90%;
+    margin-top: 50px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+.fetchAPI{
+    color: rgba(0, 0, 255, 0.5);
+    font-size:4ch;
+}
+.sand{
+    color: rgb(255, 187, 1)
+}
+button{
+    width: 120px;
+    height: 30px;
+    line-height: 3.5ch;
+    background-color: rgba(0, 128, 0, 0.219);
+    border: 1px solid black;
+    margin-top: 30px;
+    margin-left: 50px;
+    float: center;
+}
+button:hover{
+    background-color: green;
+    font-weight: bolder;
+}
+
+
+h2{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: left;
+    font-size: 5vw;
+}
+
+/* single post */
+.post{
+ background-color: rgb(224, 215, 215);
+ width: 100%;
+ margin: 10px auto;
+ background-image: linear-gradient(to left, rgba(0, 238, 255, 0.397),rgba(247, 0, 255, 0.329)) ;
+}
+
+.post h4{
+    line-height: 40px;
+    font-size: 18px;
+    text-transform: capitalize;
+    text-align: center;
+    color:rgba(0, 0, 0, 0.637);
+    font-weight: bolder;
+}
+.post p{
+    text-align: left;
+    padding: 5px;
+    color: rgb(0, 0, 0);
+    font-size: 13px;
+
+}
+hr{
+    width: 90%;
+    margin: 0px auto;
+    margin-bottom: 10px;
+}
